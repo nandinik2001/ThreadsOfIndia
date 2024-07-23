@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Details</title>
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <div>
+        <p><strong>ID:</strong> <span th:text="${employee.id}">1</span></p>
+        <p><strong>Name:</strong> <span th:text="${employee.name}">Hare Krishna</span></p>
+        <p><strong>Email:</strong> <span th:text="${employee.email}">hare.krishna@goloka.com</span></p>
+    </div>
+    <a href="/api/employees">Back to List</a>
+</body>
+</html>
