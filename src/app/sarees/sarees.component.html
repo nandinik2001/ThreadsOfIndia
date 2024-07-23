@@ -1,0 +1,21 @@
+<!-- <h2>Sarees Collection</h2> -->
+<!-- Display a list of sarees here -->
+
+
+<div class="sarees-container">
+  <h1 class="title">Sarees Collection</h1>
+  <div class="sarees-grid">
+    <div *ngFor="let saree of sarees" class="card">
+      <img [src]="saree.image" alt="{{saree.name}}">
+      <div class="card-body">
+        <h5 class="card-title">{{saree.name}}</h5>
+        <p class="card-text">{{saree.description}}</p>
+        <p class="card-price">Price: ${{saree.price}}</p>
+        <button (click)="addToCart(saree)" class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+

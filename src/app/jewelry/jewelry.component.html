@@ -1,0 +1,50 @@
+<!-- <h2>Jewelry Collection</h2> -->
+<!-- Display a list of jewelry here -->
+
+
+<!-- <div class="container mt-4">
+    <h2>Jewelry Collection</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let jewelry of jewelries">
+        <div class="card">
+          <img class="card-img-top" [src]="jewelry.image" [alt]="jewelry.name">
+          <div class="card-body">
+            <h5 class="card-title">{{ jewelry.name }}</h5>
+            <p class="card-text">{{ jewelry.description }}</p>
+            <p class="card-text"><strong>Price:</strong> {{ jewelry.price | currency }}</p>
+            <button class="btn btn-dark" (click)="addToCart(jewelry)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+
+  <!-- <div class="jewelry-title">Jewelry Collection</div>
+<div class="jewelry-container">
+  <div class="card" *ngFor="let jewelry of jewelries">
+    <img [src]="jewelry.image" alt="{{ jewelry.name }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ jewelry.name }}</h5>
+      <p class="card-text">{{ jewelry.description }}</p>
+      <p class="card-price">Price: {{ jewelry.price | currency }}</p>
+      <button (click)="addToCart(jewelry)" class="btn btn-primary">Add to Cart</button>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="jewelry-container">
+  <h1 class="title">Jewelry Collection</h1>
+  <div class="jewelry-grid">
+    <div *ngFor="let jewelry of jewelries" class="card">
+      <img [src]="jewelry.image" alt="{{jewelry.name}}">
+      <div class="card-body">
+        <h5 class="card-title">{{jewelry.name}}</h5>
+        <p class="card-text">{{jewelry.description}}</p>
+        <p class="card-price">Price: ${{jewelry.price}}</p>
+        <button (click)="addToCart(jewelry)" class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>

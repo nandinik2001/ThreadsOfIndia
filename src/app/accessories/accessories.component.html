@@ -1,0 +1,20 @@
+<!-- <h2>Accessories Collection</h2> -->
+<!-- Display a list of accessories here -->
+
+<div class="container mt-4">
+    <h2>Accessories Collection</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let accessory of accessories">
+        <div class="card">
+          <img class="card-img-top" [src]="accessory.image" [alt]="accessory.name">
+          <div class="card-body">
+            <h5 class="card-title">{{ accessory.name }}</h5>
+            <p class="card-text">{{ accessory.description }}</p>
+            <p class="card-text"><strong>Price:</strong> {{ accessory.price | currency }}</p>
+            <button class="btn btn-dark" (click)="addToCart(accessory)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

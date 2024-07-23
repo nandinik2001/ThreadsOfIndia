@@ -1,0 +1,17 @@
+/* homepage.component.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+  }
+  
+  
+  .homepage-heading {
+    font-size: 4rem; /* Increase font size */
+    color: #2c3e50; /* Dark color for contrast */
+    margin: 0; /* Remove default margin */
+  }
+  

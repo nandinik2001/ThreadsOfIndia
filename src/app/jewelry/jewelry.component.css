@@ -1,0 +1,184 @@
+  
+  /* .jewelry-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .jewelry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(25% - 20px);
+    background-color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .card-price {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  } */
+  
+
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 204, 0, 0.218); /* Pure gold color for the entire page */
+    font-family: 'Gurajada', serif; /* Ensure consistent font across the site */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav.navbar {
+    width: 100%;
+  }
+  
+  .container {
+    flex: 1; /* This makes sure the container takes up the remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homepage-heading {
+    font-size: 4rem; /* Increase font size */
+    color: #2c3e50; /* Dark color for contrast */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Ensure navbar links are properly aligned */
+  .navbar .nav-link {
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .navbar .nav-link i {
+    margin-right: 5px;
+  }
+  
+  /* Ensure navbar links start from the left */
+  .navbar-nav {
+    margin-left: 0;
+  }
+  
+  /* Add gold background to the jewelry container */
+  .jewelry-container {
+    padding: 20px;
+    background-color: rgba(255, 217, 0, 0.308); /* Change background color to gold */
+  }
+  
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .jewelry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(25% - 20px); /* Adjust the width to reduce the card size */
+    background-color: #fff;
+  }
+  /* Hover effect for card */
+.card:hover {
+    transform: translateY(-5px); /* Move the card slightly up */
+    box-shadow: 0 4px 8px rgba(255, 0, 76, 0.5); /* Add a shadow for a 3D effect with orange color */
+    background-color: rgba(240, 167, 215, 0.996); /* Optional: Add a slight orange background color */
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Set a maximum height for the images */
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .card-price {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #ff9500;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
